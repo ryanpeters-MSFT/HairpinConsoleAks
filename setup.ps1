@@ -4,7 +4,7 @@ $cluster = "hairpincluster"
 # create the group
 az group create -n $group -l eastus2
 
-# create the vnet and subnet
+# create the cluster
 az aks create -n $cluster -c 1 -g $group --network-plugin azure
 
 # get credentials
