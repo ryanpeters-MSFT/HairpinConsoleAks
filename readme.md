@@ -1,6 +1,6 @@
 # Hairpin Docker/Kubernetes Demo
 
-POC showing hairpin connectivity over (self-signed) TLS. This sample uses a [sample Web API application](https://github.com/ckriutz/HairpinConsole) to make HTTPS requests (self-signed certificate) to a `ClusterIP` service to test for loopback connectivity issues. 
+POC showing hairpin connectivity over (self-signed) TLS. This sample uses a [sample Web API application](https://github.com/ckriutz/HairpinConsole) to make HTTPS requests (self-signed certificate) to a `ClusterIP` service to test for hairpin network connectivity issues. 
 
 **THIS IS NOT PRODUCTION CODE.**
 
